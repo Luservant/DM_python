@@ -1,0 +1,5 @@
+pandas
+matplotlib
+geopandas
+great_tables
+cartiflette
