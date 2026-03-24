@@ -1,7 +1,7 @@
 # Exploitation de données électorales avec Python
 
-Évaluation intermédiaire — *Python pour la data science* (mi-semestre 2026)  
-Auteur : SERVANT Lucas, GOUALOU Maxence, DELETANG Arthur
+Évaluation intermédiaire — *Python pour la data science*  
+Auteur : SERVANT Lucas, GOUALOU Maxence, DELETANG Arthur  
 Chargé de TD : BEROVA Raya
 
 ---
@@ -32,28 +32,21 @@ Le fond de carte des départements est récupéré automatiquement via la librai
 
 ---
 
-## Installation
+## Installation et utilisation
+
+**1. Cloner le dépôt** — ouvrir un terminal et exécuter :
+
+```bash
+git clone https://github.com/Luservant/DM_python.git
+```
+
+**2. Ouvrir le dossier** `DM_python` qui vient d'être créé.
+
+**3. Ouvrir un terminal dans ce dossier** et exécuter :
 
 ```bash
 pip install -r requirements.txt
-```
-
-> **Note :** Il est recommandé d'utiliser un environnement virtuel :
-> ```bash
-> python -m venv .venv
-> source .venv/bin/activate   # Linux / macOS
-> .venv\Scripts\activate      # Windows
-> pip install -r requirements.txt
-> ```
-
----
-
-## Utilisation
-
-Ouvrir et exécuter le notebook dans l'ordre :
-
-```bash
-jupyter notebook dm_elections_2022.ipynb
+jupyter lab dm_elections_2022.ipynb
 ```
 
 Le notebook est **entièrement reproductible** : un clic sur *Run All* suffit à reproduire l'ensemble des analyses et visualisations.
