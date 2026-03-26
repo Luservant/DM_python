@@ -46,7 +46,6 @@ git clone https://github.com/Luservant/DM_python.git
 
 ```bash
 pip install -r requirements.txt
-jupyter lab dm_elections_2022.ipynb
 ```
 
 Le notebook est **entièrement reproductible** : un clic sur *Run All* suffit à reproduire l'ensemble des analyses et visualisations.
