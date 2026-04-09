@@ -4,7 +4,7 @@
 
 Bon README.md.  
 Code propre et commenté.  
-Pense à séparer le code en plusieurs cellules.  
+Penser à séparer le code en plusieurs cellules.  
 Fichier utils.py pas pleinement utilisé.
 
 ## Les questions du DM
